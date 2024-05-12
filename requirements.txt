@@ -1,0 +1,11 @@
+unidecode
+pandas 
+numpy
+tensorflow 
+torch
+torchtext
+transformers 
+nltk
+dill
+spacy
+underthesea
