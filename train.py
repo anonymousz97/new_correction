@@ -6,7 +6,7 @@ from params import (BATCH_SIZE, FINE_TUNED, IS_CONTINUOUS_TRAIN,
                     N_EPOCH, PATH_PRETRAINED_MODEL, PENALTY_VALUE,
                     TRAINING_DATA_PERCENT, USE_DETECTION_CONTEXT, PKL_PATH, MODEL_NAME, IS_TRANSFORMER, ADD_CHAR_LEVEL, IS_BERT)
 
-with open(PKL_PATH+f'{MODEL_NAME}.pkl', 'rb') as file:
+with open('./sample_dataset.pkl', 'rb') as file:
     data = pd.DataFrame(data = pickle.load(file))
 n_samples = data.shape[0]
 def main():

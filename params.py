@@ -40,7 +40,7 @@ IS_BERT = True
 FINE_TUNED=True
 
 # Batch size samples
-BATCH_SIZE=2
+BATCH_SIZE=4
 
 DOMAIN = 'general'
 N_WORDS = {
@@ -51,7 +51,7 @@ N_WORDS = {
 # For preprocessing
 BERT_PRETRAINED = 'vinai/phobert-base-v2'
 
-MODEL_SAVE_PATH = 'output_models/'
+MODEL_SAVE_PATH = 'output_model/'
 SOFT_MASKED_BERT_MODEL = f'model_{DOMAIN}.pth'
 
 PKL_PATH = 'input/general/'
